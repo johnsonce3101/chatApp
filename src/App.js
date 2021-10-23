@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <div>
-      <button href="" type="button">HOME</button>
+      <button className="home" href="" type="button">HOME</button>
       <ChatEngine
         height="90vh"
         projectID={projectID}
