@@ -1,5 +1,5 @@
 import { ChatEngine } from 'react-chat-engine';
-
+import Button from '@mui/material/Button';
 import ChatFeed from './components/ChatFeed';
 import LoginForm from './components/LoginForm';
 import './App.css';
@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <div>
-      <button className="home" href="" type="button">HOME</button>
+      <Button className="home" href="https://virtuosos.netlify.app/home" type="button">HOME</Button>
       <ChatEngine
         height="90vh"
         projectID={projectID}
